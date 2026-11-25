@@ -1,0 +1,68 @@
+import { CategoryInfo } from '@/types';
+
+export const CATEGORIES: CategoryInfo[] = [
+  {
+    id: 'Necklaces',
+    name: 'Necklaces & Chokers',
+    description: 'Regal 22K gold collars, heirloom Jadau chokers, and sacred temple Guttapusalu neckpieces crafted for timeless grace.',
+    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1200&auto=format&fit=crop',
+    count: 14,
+    highlightText: '22K Gold & Jadau',
+  },
+  {
+    id: 'Earrings',
+    name: 'Earrings & Jhumkas',
+    description: 'Ancestral Chandbalis, antique gold jhumkas, and temple-carved ear pendants adorned with pearls and rubies.',
+    image: 'https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=1200&auto=format&fit=crop',
+    count: 18,
+    highlightText: 'Artisanal Flourish',
+  },
+  {
+    id: 'Bangles & Kadas',
+    name: 'Bangles, Kadas & Cuffs',
+    description: 'Intricately filigreed Pachheli bangles, solid 22K gold kadas, and Kundan-studded bridal cuffs carrying rhythmic grace.',
+    image: 'https://images.unsplash.com/photo-1611591475811-0672e8111667?q=80&w=1200&auto=format&fit=crop',
+    count: 16,
+    highlightText: 'Handcrafted Heirlooms',
+  },
+  {
+    id: 'Rings',
+    name: 'Royal Rings & Arsi',
+    description: 'Statement Navratna rings, Kundan mirror Arsi rings, and carved gemstone cocktail bands.',
+    image: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1200&auto=format&fit=crop',
+    count: 12,
+    highlightText: 'Statement Pieces',
+  },
+  {
+    id: 'Bridal Shringar',
+    name: 'Bridal Head & Waist Ornaments',
+    description: 'Complete ceremonial shringar: Mathapatti, Maang Tikka, Passa, and Kamarbandh Vaddanam waist belts.',
+    image: 'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=1200&auto=format&fit=crop',
+    count: 15,
+    highlightText: 'Bridal Trousseau',
+  },
+  {
+    id: 'Payals & Anklets',
+    name: 'Antique Payals & Anklets',
+    description: 'Solid sterling silver and gold-dipped bridal payals, musical temple ghungroos, and ornamental foot shringar.',
+    image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=1200&auto=format&fit=crop',
+    count: 9,
+    highlightText: 'Silver & Gold Ghungroos',
+  },
+  {
+    id: 'Silver & Pooja Heirlooms',
+    name: 'Fine Silverware & Pooja Heirlooms',
+    description: 'Auspicious 92.5 pure sterling silver pooja thali suites, hand-engraved nakashi diyas, kumkum bharani, and silver giftware.',
+    image: 'https://images.unsplash.com/photo-1615655406736-b37c4fabf923?q=80&w=1200&auto=format&fit=crop',
+    count: 10,
+    highlightText: '92.5 Pure Silver',
+  },
+  {
+    id: 'Luxury Bridal Potlis',
+    name: 'Luxury Bridal Potlis & Batwas',
+    description: 'Bespoke hand-embroidered Zardozi, pearl-fringed, and velvet potli purses designed for Indian brides and celebratory soirees.',
+    image: 'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=1200&auto=format&fit=crop',
+    count: 8,
+    highlightText: 'Zardozi & Pearl Craft',
+  },
+];
