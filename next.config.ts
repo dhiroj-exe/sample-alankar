@@ -9,6 +9,13 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  eslint: {
+    // Prevents interactive prompt or CI stall during Vercel builds
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: false,
+  },
 };
 
 export default nextConfig;
